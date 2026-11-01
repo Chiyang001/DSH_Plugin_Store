@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/brand-lockup.png" width="352" height="132" alt="炽阳001的圆角矩形开发者 logo | Harness 插件商店 logo" /></p>
+<p align="center"><img src="docs/assets/brand-lockup.png?v=2" width="352" height="132" alt="炽阳001的完整开发者 logo（圆角矩形外框） | Harness 插件商店 logo" /></p>
 
 <h1 align="center">Harness 插件商店</h1>
 
