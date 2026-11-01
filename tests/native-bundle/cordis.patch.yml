@@ -1,0 +1,3 @@
+- insert:
+    - id: store-native-test-fixture
+      name: dsh-store-native-test-fixture

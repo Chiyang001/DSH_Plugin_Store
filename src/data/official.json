@@ -1,0 +1,344 @@
+{
+  "source": "deepseek-ai/deepseek-harness",
+  "fetchedAt": "2026-10-31T15:45:22.177Z",
+  "plugins": [
+    {
+      "id": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "name": "智能体团队",
+      "description": "让与你对话的智能体把工作分给有名字的队友，在共享任务看板上跟踪进度，并汇总队友的结果向你汇报。",
+      "author": "DeepSeek",
+      "category": "coding",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTMuMzAyNyAxNy4xMDc3SDkuMDMxMjVWMTIuODM3MkgxMy4zMDI3VjE3LjEwNzdaTTE3LjU3NDIgMTIuODM3MkMxNy41NzQgMTUuMTk1OCAxNS42NjIzIDE3LjEwNzUgMTMuMzAzNyAxNy4xMDc3VjguNTY1NjdIMTcuNTc0MlYxMi44MzcyWiIgZmlsbD0idXJsKCNhKSIgLz4KICA8cGF0aCBkPSJNMTguNTIyOSAxMi44MzcyVjguNTY1NjdIMjIuNzk0NFYxMi44MzcySDI3LjA2NTlWMTcuMTA3N0gyMi43OTQ0QzIwLjQzNTcgMTcuMTA3NyAxOC41MjMyIDE1LjE5NTkgMTguNTIyOSAxMi44MzcyWiIgZmlsbD0iI0YyQUY2MyIgLz4KICA8cGF0aCBkPSJNMTcuNTc0MiAyNi42MDcySDEzLjMwMzdWMTguMDY0MkMxNS42NjI1IDE4LjA2NDQgMTcuNTc0MiAxOS45NzY5IDE3LjU3NDIgMjIuMzM1N1YyNi42MDcyWk0xMy4zMDI3IDIyLjMzNTdIOS4wMzEyNVYxOC4wNjQySDEzLjMwMjdWMjIuMzM1N1oiIGZpbGw9IiM3Q0I3RkYiIC8+CiAgPHBhdGggZD0iTTIyLjc5NDQgMjYuNjA3MkgxOC41MjI5VjIyLjMzNTdDMTguNTIyOSAxOS45NzY4IDIwLjQzNTUgMTguMDY0MiAyMi43OTQ0IDE4LjA2NDJIMjcuMDY1OVYyMi4zMzU3SDIyLjc5NDRWMjYuNjA3MloiIGZpbGw9IiM0NUQ5RTciIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSIxNi4xMjQ3IiB5MT0iNi42NjEzIiB4Mj0iOS4wMzEyNSIgeTI9IjE5LjIyMDYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzdDQjdGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQ1QUYzIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/agent-team-profile/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/agent-team-profile",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "blue",
+      "icon": "code",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-auto-review",
+      "name": "自动授权审查",
+      "description": "提供“自动审查”访问模式：每次工具调用前，由模型对照你的要求检查，获准的调用立即运行，被拒绝的调用等你审批。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjUgMS41KSBzY2FsZSgwLjkxNjY2NjY2NjcpIj4KICAgIDxwYXRoIGQ9Ik0xOCA2TDI4LjUgOS41VjE3LjJDMjguNSAyMy4xIDI0LjA4IDI4LjQgMTggMzBDMTEuOTIgMjguNCA3LjUgMjMuMSA3LjUgMTcuMlY5LjVMMTggNloiIGZpbGw9InVybCgjYSkiIGZpbGwtb3BhY2l0eT0iMC44IiAvPgogICAgPHBhdGggZD0iTTE0LjIgMThMMTYuODQgMjAuNjNMMjIuMiAxNS4yNyIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDwvZz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjE4IiB5MT0iNiIgeDI9IjE4IiB5Mj0iMzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzdBQzJGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNEE2NUU4IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/auto-review/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/auto-review",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-badge-skill-bundle",
+      "name": "DSH 徽章技能",
+      "description": "让 Agent 为文档、PR 等产出添加「powered by dsh」徽章。",
+      "author": "DeepSeek",
+      "category": "coding",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI2IiB5PSIxMS41IiB3aWR0aD0iMjQiIGhlaWdodD0iMTMiIHJ4PSIxLjUiIGZpbGw9IiM0RDZCRkUiIC8+CiAgPHBhdGggZD0iTTEwIDE1VjIxSDExLjVDMTMuMiAyMSAxNCAyMCAxNCAxOEMxNCAxNiAxMy4yIDE1IDExLjUgMTVIMTBaIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMTkuOSAxNS40QzE5LjIgMTUgMTguNyAxNSAxOCAxNUMxNi43IDE1IDE2IDE1LjYgMTYgMTYuNUMxNiAxNy41IDE2LjkgMTcuOCAxOCAxOEMxOS4yIDE4LjIgMjAgMTguNiAyMCAxOS41QzIwIDIwLjQgMTkuMiAyMSAxOCAyMUMxNy4yIDIxIDE2LjUgMjAuOCAxNiAyMC40IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0yMiAxNVYyMU0yNiAxNVYyMU0yMiAxOEgyNiIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuMjUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIC8+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/badge-skill-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/badge-skill-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "blue",
+      "icon": "code",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
+      "name": "思考过程机器翻译",
+      "description": "智能体输出时，把展开的“思考”行翻译成你选择的语言，点击“查看原文”可切换回原文。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI3IiB5PSI3IiB3aWR0aD0iMTUiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSJ1cmwoI3RyYW5zbGF0aW9uLXNvdXJjZSkiIGZpbGwtb3BhY2l0eT0iMC44IiAvPgogIDxwYXRoIGQ9Ik0xMC41IDE4LjVMMTQgMTFMMTcuNSAxOC41TTEyIDE1LjVIMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0IDE0Ljc1KSBzY2FsZSgwLjkpIHRyYW5zbGF0ZSgtMTQgLTE0Ljc1KSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cmVjdCB4PSIxNiIgeT0iMTUiIHdpZHRoPSIxMyIgaGVpZ2h0PSIxNCIgcng9IjIiIGZpbGw9InVybCgjdHJhbnNsYXRpb24tdGFyZ2V0KSIgLz4KICA8cGF0aCBkPSJNMjIuNSAxOFYyME0xOC41IDIwSDI2LjVNMjQuNSAyMEMyNCAyMyAyMiAyNSAxOSAyNk0yMC41IDIyQzIyIDI0IDI0IDI1IDI2IDI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMi41IDIyKSBzY2FsZSgwLjkpIHRyYW5zbGF0ZSgtMjIuNSAtMjIpIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0cmFuc2xhdGlvbi1zb3VyY2UiIHgxPSIxNC41IiB5MT0iNyIgeDI9IjE0LjUiIHkyPSIyMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNjlCOUZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMjRERTIiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0cmFuc2xhdGlvbi10YXJnZXQiIHgxPSIyMi41IiB5MT0iMTUiIHgyPSIyMi41IiB5Mj0iMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzZBRUNCNiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzdBNkIxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/cot-translation-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/cot-translation-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-cua-bundle",
+      "name": "Computer Use",
+      "description": "目前仅支持 macOS，Windows 支持正在开发中。为已有及新建 PTC 会话加载 Computer Use。请切换到 PTC 模式来使用，并授予辅助功能和屏幕录制权限。",
+      "author": "DeepSeek",
+      "category": "coding",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tCiAgICBDb21wdXRlciBVc2UgcGx1Z2luIGljb24uCiAgICBBZGFwdGVkIGZyb20gTHVjaWRlICJtb3VzZS1wb2ludGVyLWNsaWNrIiAoaHR0cHM6Ly9sdWNpZGUuZGV2L2ljb25zL21vdXNlLXBvaW50ZXItY2xpY2spLgogICAgQ2hhbmdlczogc29saWQtZmlsbGVkIHBvaW50ZXIsIHByb2plY3QgcGFsZXR0ZSwgMzZ4MzYgY2FudmFzLgoKICAgIElTQyBMaWNlbnNlCiAgICBDb3B5cmlnaHQgKGMpIDIwMjYgTHVjaWRlIEljb25zIGFuZCBDb250cmlidXRvcnMKICAgIGh0dHBzOi8vZ2l0aHViLmNvbS9sdWNpZGUtaWNvbnMvbHVjaWRlL2Jsb2IvbWFpbi9MSUNFTlNFCgogICAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgYW5kL29yIGRpc3RyaWJ1dGUgdGhpcyBzb2Z0d2FyZSBmb3IgYW55CiAgICBwdXJwb3NlIHdpdGggb3Igd2l0aG91dCBmZWUgaXMgaGVyZWJ5IGdyYW50ZWQsIHByb3ZpZGVkIHRoYXQgdGhlIGFib3ZlCiAgICBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIGFwcGVhciBpbiBhbGwgY29waWVzLgogICAgVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIFRIRSBBVVRIT1IgRElTQ0xBSU1TIEFMTCBXQVJSQU5USUVTCiAgICBXSVRIIFJFR0FSRCBUTyBUSElTIFNPRlRXQVJFIElOQ0xVRElORyBBTEwgSU1QTElFRCBXQVJSQU5USUVTIE9GCiAgICBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MuIElOIE5PIEVWRU5UIFNIQUxMIFRIRSBBVVRIT1IgQkUgTElBQkxFIEZPUgogICAgQU5ZIFNQRUNJQUwsIERJUkVDVCwgSU5ESVJFQ1QsIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFUyBPUiBBTlkgREFNQUdFUwogICAgV0hBVFNPRVZFUiBSRVNVTFRJTkcgRlJPTSBMT1NTIE9GIFVTRSwgREFUQSBPUiBQUk9GSVRTLCBXSEVUSEVSIElOIEFOCiAgICBBQ1RJT04gT0YgQ09OVFJBQ1QsIE5FR0xJR0VOQ0UgT1IgT1RIRVIgVE9SVElPVVMgQUNUSU9OLCBBUklTSU5HIE9VVCBPRgogICAgT1IgSU4gQ09OTkVDVElPTiBXSVRIIFRIRSBVU0UgT1IgUEVSRk9STUFOQ0UgT0YgVEhJUyBTT0ZUV0FSRS4KICAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjAzNiA0LjAzNikgc2NhbGUoMS4yMjAxKSI+CiAgICA8cGF0aCBkPSJNOS4wMzcgOS42OWEuNDk4LjQ5OCAwIDAgMSAuNjUzLS42NTNsMTEgNC41YS41LjUgMCAwIDEtLjA3NC45NDlsLTQuMzQ5IDEuMDQxYTEgMSAwIDAgMC0uNzQuNzM5bC0xLjA0IDQuMzVhLjUuNSAwIDAgMS0uOTUuMDc0eiIgZmlsbD0idXJsKCNnKSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgICA8cGF0aCBkPSJNMTQgNC4xIDEyIDYiIHN0cm9rZT0iIzUxQ0ZEQiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgICA8cGF0aCBkPSJtNS4xIDgtMi45LS44IiBzdHJva2U9IiM1MUNGREIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogICAgPHBhdGggZD0ibTYgMTItMS45IDIiIHN0cm9rZT0iIzUxQ0ZEQiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgICA8cGF0aCBkPSJNNy4yIDIuMiA4IDUuMSIgc3Ryb2tlPSIjNTFDRkRCIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8L2c+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSI5IiB5MT0iOSIgeDI9IjIxIiB5Mj0iMjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzg2QjhGNSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNTI2OUUxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/cua-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/cua-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "blue",
+      "icon": "code",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-forge-bundle",
+      "name": "变更请求与工作树",
+      "description": "跟踪每个会话的变更请求及其检查与评审，新会话也可以在 Git 工作树中开始；GitHub 通过 gh 命令行访问。",
+      "author": "DeepSeek",
+      "category": "coding",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI3IiB5PSI3IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI0IiBmaWxsPSJ1cmwoI2ZvcmdlLWJ1bmRsZS1jYXJkKSIgZmlsbC1vcGFjaXR5PSIwLjg1IiAvPgogIDxjaXJjbGUgY3g9IjEzIiBjeT0iMTIuNSIgcj0iMS45IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS42IiAvPgogIDxjaXJjbGUgY3g9IjEzIiBjeT0iMjMuNSIgcj0iMS45IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS42IiAvPgogIDxjaXJjbGUgY3g9IjIzIiBjeT0iMjMuNSIgcj0iMS45IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS42IiAvPgogIDxwYXRoIGQ9Ik0xMyAxNC40VjIxLjZNMjMgMjEuNlYxNi4yQzIzIDE0LjMgMjEuNyAxMyAxOS44IDEzSDE4IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS42IiAvPgogIDxwYXRoIGQ9Ik0yMCAxMUwxOCAxM0wyMCAxNSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZm9yZ2UtYnVuZGxlLWNhcmQiIHgxPSIxOCIgeTE9IjciIHgyPSIxOCIgeTI9IjI5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzY5QjlGRiIgLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMjRERTIiIC8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/forge-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/forge-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "blue",
+      "icon": "code",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-inspector-profile",
+      "name": "开发者工具",
+      "description": "用于排查问题：在「会话数据诊断」中查看 DSH 为会话记录的内容，在「统计」页签查看每轮/每步的上下文、耗时、缓存和工具成本，并在 Chrome DevTools 中调试 DSH 后端。",
+      "author": "DeepSeek",
+      "category": "data",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBtYXNrPSJ1cmwoI2RhdGEtbGVucy1jdXRvdXQpIj4KICAgIDxyZWN0IHg9IjExIiB5PSI3IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSIjN0ZCN0ZDIiBmaWxsLW9wYWNpdHk9IjAuNTUiIC8+CiAgICA8cmVjdCB4PSI3IiB5PSIxMSIgd2lkdGg9IjE3IiBoZWlnaHQ9IjE1IiByeD0iMiIgZmlsbD0idXJsKCNkYXRhLXBhbmVsKSIgLz4KICAgIDxwYXRoIGQ9Ik0xMCAxNUgxOE0xMCAxOEgxNSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNSIgLz4KICA8L2c+CiAgPHBhdGggZD0iTTI2IDI2TDMwIDMwIiBzdHJva2U9IiM2NThFRkYiIHN0cm9rZS13aWR0aD0iMyIgLz4KICA8Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSI0LjUiIHN0cm9rZT0idXJsKCNkYXRhLWxlbnMpIiBzdHJva2Utd2lkdGg9IjIuNSIgLz4KICA8ZGVmcz4KICAgIDxtYXNrIGlkPSJkYXRhLWxlbnMtY3V0b3V0IiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiPgogICAgICA8cmVjdCB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIGZpbGw9IiNGRkZGRkYiIC8+CiAgICAgIDxjaXJjbGUgY3g9IjIzIiBjeT0iMjMiIHI9IjMuMjUiIGZpbGw9IiMwMDAwMDAiIC8+CiAgICA8L21hc2s+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImRhdGEtcGFuZWwiIHgxPSI5IiB5MT0iMTEiIHgyPSIyMyIgeTI9IjI2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2REI5RkIiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM2NTBERSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImRhdGEtbGVucyIgeDE9IjE5IiB5MT0iMTkiIHgyPSIyNyIgeTI9IjI3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0NUQ5RTciIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY3QzdGRSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/inspector-profile/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/inspector-profile",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "teal",
+      "icon": "chart",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-liveshare",
+      "name": "LiveShare 会话分享",
+      "description": "把当前会话分享给同事，对方可在浏览器中驱动该会话、在分享允许写入时修改授权工作区内的文件，或从已完成历史分支出自己的会话。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI1LjUiIHk9IjguNSIgd2lkdGg9IjI1IiBoZWlnaHQ9IjE3IiByeD0iMi42IiBmaWxsPSJ1cmwoI2EpIiBmaWxsLW9wYWNpdHk9IjAuODUiIC8+CiAgPHBhdGggZD0iTTkuNSAyMi41VjEyLjVIMTcuNVYyMi41SDkuNVoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45IiAvPgogIDxwYXRoIGQ9Ik0yMSAxNS4yTDI1LjUgMTIuNlYyMy40TDIxIDIwLjhWMTUuMloiIGZpbGw9IiM0NUQ5RTciIC8+CiAgPGNpcmNsZSBjeD0iMjguNSIgY3k9IjkuNSIgcj0iMy4yIiBmaWxsPSIjNDVEOUU3IiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMTgiIHkxPSI4LjUiIHgyPSIxOCIgeTI9IjI1LjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzdDQjdGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQ1QUYzIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/liveshare/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/liveshare",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-personalized-recommendations",
+      "name": "个性化推荐",
+      "description": "针对你对 DSH 的个性化需求，在回答下方展示推荐卡片：想要能长期使用的页面或小工具时，提议新增个性化页面，点击创建后在后台生成；问到本应用怎么做某件事或缺少某项能力时，推荐对应的内置插件，点击启用后开启。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOCA5LjhDOCA4LjgxIDguODEgOCA5LjggOEgxNC43QzE1LjY5IDggMTYuNSA4LjgxIDE2LjUgOS44VjE0LjdDMTYuNSAxNS42OSAxNS42OSAxNi41IDE0LjcgMTYuNUg5LjhDOC44MSAxNi41IDggMTUuNjkgOCAxNC43VjkuOFpNOCAyMS4zQzggMjAuMzEgOC44MSAxOS41IDkuOCAxOS41SDE0LjdDMTUuNjkgMTkuNSAxNi41IDIwLjMxIDE2LjUgMjEuM1YyNi4yQzE2LjUgMjcuMTkgMTUuNjkgMjggMTQuNyAyOEg5LjhDOC44MSAyOCA4IDI3LjE5IDggMjYuMlYyMS4zWk0xOS41IDIxLjNDMTkuNSAyMC4zMSAyMC4zMSAxOS41IDIxLjMgMTkuNUgyNi4yQzI3LjE5IDE5LjUgMjggMjAuMzEgMjggMjEuM1YyNi4yQzI4IDI3LjE5IDI3LjE5IDI4IDI2LjIgMjhIMjEuM0MyMC4zMSAyOCAxOS41IDI3LjE5IDE5LjUgMjYuMlYyMS4zWiIgZmlsbD0idXJsKCNwcl9tb2R1bGVzX2JsdWUpIi8+CiAgPHBhdGggZD0iTTIzLjc1IDcuMjVDMjQuNDcgMTAuNTggMjUuNjcgMTEuNzggMjkgMTIuNUMyNS42NyAxMy4yMiAyNC40NyAxNC40MiAyMy43NSAxNy43NUMyMy4wMyAxNC40MiAyMS44MyAxMy4yMiAxOC41IDEyLjVDMjEuODMgMTEuNzggMjMuMDMgMTAuNTggMjMuNzUgNy4yNVoiIGZpbGw9IiM5NTg2Q0IiLz4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InByX21vZHVsZXNfYmx1ZSIgeDE9IjgiIHkxPSI4IiB4Mj0iMjgiIHkyPSIyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM3RUI4RUEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2MTc0Q0UiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPC9zdmc+Cg==",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/personalized-recommendations/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/personalized-recommendations",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-plugin-market-bundle",
+      "name": "自定义插件索引",
+      "description": "在插件页添加“发现”标签页，从你添加的插件索引中浏览和安装插件。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOCA5LjVDOCA4LjY3MTU3IDguNjcxNTcgOCA5LjUgOEgxNS41QzE2LjMyODQgOCAxNyA4LjY3MTU3IDE3IDkuNVYxNS41QzE3IDE2LjMyODQgMTYuMzI4NCAxNyAxNS41IDE3SDkuNUM4LjY3MTU3IDE3IDggMTYuMzI4NCA4IDE1LjVWOS41Wk0xOSA5LjVDMTkgOC42NzE1NyAxOS42NzE2IDggMjAuNSA4SDI2LjVDMjcuMzI4NCA4IDI4IDguNjcxNTcgMjggOS41VjE1LjVDMjggMTYuMzI4NCAyNy4zMjg0IDE3IDI2LjUgMTdIMjAuNUMxOS42NzE2IDE3IDE5IDE2LjMyODQgMTkgMTUuNVY5LjVaTTggMjAuNUM4IDE5LjY3MTYgOC42NzE1NyAxOSA5LjUgMTlIMTUuNUMxNi4zMjg0IDE5IDE3IDE5LjY3MTYgMTcgMjAuNVYyNi41QzE3IDI3LjMyODQgMTYuMzI4NCAyOCAxNS41IDI4SDkuNUM4LjY3MTU3IDI4IDggMjcuMzI4NCA4IDI2LjVWMjAuNVpNMjIuMjUgMTlIMjQuNzVWMjIuMjVIMjhWMjQuNzVIMjQuNzVWMjhIMjIuMjVWMjQuNzVIMTlWMjIuMjVIMjIuMjVWMTlaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfcGx1Z2luX21hcmtldCkiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfcGx1Z2luX21hcmtldCIgeDE9IjguNSIgeTE9IjEwIiB4Mj0iMzAiIHkyPSIyNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNjdDN0ZFIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzRjc3RDgiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/plugin-market-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/plugin-market-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "name": "Ralph 循环",
+      "description": "要求用 Ralph 循环完成一个目标后，智能体会一轮接一轮地启动新的智能体处理它，直到目标达成、报告受阻或达到轮次上限。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTguMDQ4NiAyOC40OTAxQzEyLjA4NTggMjguNDkwMSA3LjI1MTk1IDIzLjY1NjIgNy4yNTE5NSAxNy42OTM0QzEzLjIxNDggMTcuNjkzNCAxOC4wNDg2IDIyLjUyNzIgMTguMDQ4NiAyOC40OTAxWiIgZmlsbD0iI0E3OTdGQyI+PC9wYXRoPjxwYXRoIGQ9Ik0xOC4wNDg2IDYuODk2NjdDMTIuMDg1OCA2Ljg5NjY3IDcuMjUxOTUgMTEuNzMwNSA3LjI1MTk1IDE3LjY5MzRDMTMuMjE0OCAxNy42OTM0IDE4LjA0ODYgMTIuODU5NSAxOC4wNDg2IDYuODk2NjdaIiBmaWxsPSJ1cmwoI2RzaF9wbHVnaW5fYXJ0X1IwYSkiPjwvcGF0aD48cGF0aCBkPSJNMTguMDQ4NSAyOC40OTAxQzI0LjAxMTQgMjguNDkwMSAyOC44NDUyIDIzLjY1NjIgMjguODQ1MiAxNy42OTM0QzIyLjg4MjQgMTcuNjkzNCAxOC4wNDg1IDIyLjUyNzIgMTguMDQ4NSAyOC40OTAxWiIgZmlsbD0iIzQ1NjFFRSI+PC9wYXRoPjxwYXRoIGQ9Ik0xOC4wNDg1IDYuODk2NjdDMjQuMDExNCA2Ljg5NjY3IDI4Ljg0NTIgMTEuNzMwNSAyOC44NDUyIDE3LjY5MzRDMjIuODgyNCAxNy42OTM0IDE4LjA0ODUgMTIuODU5NSAxOC4wNDg1IDYuODk2NjdaIiBmaWxsPSIjNjU4RUZGIj48L3BhdGg+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJkc2hfcGx1Z2luX2FydF9SMGEiIHgxPSIxNi43OTExIiB5MT0iMTYuMTY1NSIgeDI9IjguOTgxOTIiIHkyPSI4Ljc0Mjg5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0EyM0FFNyI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0UyRTJFMiI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/ralph-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/ralph-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-session-search",
+      "name": "会话搜索",
+      "description": "询问以往的工作，例如“上周我们是怎么修好连接池泄漏的？”，智能体会搜索同一工作区的历史会话来回答。",
+      "author": "DeepSeek",
+      "category": "knowledge",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjYuNTM2MiAyNi45ODY1TDIyLjM4MTMgMjIuODMxNyIgc3Ryb2tlPSIjNjU4RUZGIiBzdHJva2Utd2lkdGg9IjMiIC8+CiAgPGNpcmNsZSBjeD0iMTUuNzY2MSIgY3k9IjE2LjIxNTkiIHI9IjYuMjA1NiIgc3Ryb2tlPSJ1cmwoI3Nlc3Npb24tc2VhcmNoLXJpbmcpIiBzdHJva2Utd2lkdGg9IjQiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNlc3Npb24tc2VhcmNoLXJpbmciIHgxPSI3LjU2MDUiIHkxPSI4LjAxMDMiIHgyPSIyMy45NzE3IiB5Mj0iMjQuNDIxNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNDFFMUFDIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNjUiIHN0b3AtY29sb3I9IiM2NThFRkYiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzQxRTFBQyIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/session-search/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/session-search",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "purple",
+      "icon": "brain",
+      "featured": true,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "name": "随对话更新的标题",
+      "description": "根据你的所有消息生成会话标题，并在主要任务变化时更新，而不是只根据第一条消息生成。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxMS41IiB5PSI4IiB3aWR0aD0iMTciIGhlaWdodD0iMTQiIHJ4PSIyLjUiIGZpbGw9IiM3Q0I3RkYiIGZpbGwtb3BhY2l0eT0iMC41NSIgLz4KICA8cGF0aCBkPSJNMTAgMTJIMjNDMjQuMzgwNyAxMiAyNS41IDEzLjExOTMgMjUuNSAxNC41VjIzLjVDMjUuNSAyNC44ODA3IDI0LjM4MDcgMjYgMjMgMjZIMTQuNUwxMC40IDMwLjFRMTAgMzAuNSAxMCAyOS45M1YyNkM4LjYxOTI5IDI2IDcuNSAyNC44ODA3IDcuNSAyMy41VjE0LjVDNy41IDEzLjExOTMgOC42MTkyOSAxMiAxMCAxMloiIGZpbGw9InVybCgjc2Vzc2lvbi10aXRsZS1idWJibGUpIiAvPgogIDxwYXRoIGQ9Ik0xMyAxNkgyME0xNi41IDE2VjIyIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS42IiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJzZXNzaW9uLXRpdGxlLWJ1YmJsZSIgeDE9IjkiIHkxPSIxMiIgeDI9IjI0IiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzZGQjJFRSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0U1OEQ2IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/session-titles-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/session-titles-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "name": "持久终端",
+      "description": "为智能体提供终端，进程在多次工具调用之间持续在后台运行，因此它可以启动开发服务器或 REPL，稍后再读取输出或继续输入。",
+      "author": "DeepSeek",
+      "category": "coding",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMTFMMTYuNjA2IDE3LjYwNkMxNi42ODQxIDE3LjY4NDEgMTYuNjg0MSAxNy44MTA3IDE2LjYwNiAxNy44ODg4TDEwIDI0LjQ5NDgiIHN0cm9rZT0iIzY3OUVGRSIgc3Ryb2tlLXdpZHRoPSIzLjUiPjwvcGF0aD48cGF0aCBkPSJNMjAuMTIxMSAyNC40OTQ2SDI2Ljg2ODUiIHN0cm9rZT0iIzY3OUVGRSIgc3Ryb2tlLXdpZHRoPSIzLjUiPjwvcGF0aD48L3N2Zz4K",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/terminal-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/terminal-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "blue",
+      "icon": "code",
+      "featured": true,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-tool-worktree",
+      "name": "Git 工作树",
+      "description": "要求在新分支上工作时，智能体会创建单独的 Git 工作树并在其中继续，你当前的工作树保持原样。",
+      "author": "DeepSeek",
+      "category": "coding",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjggMS44KSBzY2FsZSgwLjkpIj4KICAgIDxwYXRoIGQ9Ik0xMSAxMlYyNE0xMSAxOUgxNkMyMC40IDE5IDI1IDE2LjQgMjUgMTIiIHN0cm9rZT0idXJsKCN3b3JrdHJlZS1icmFuY2hlcykiIHN0cm9rZS13aWR0aD0iMyIgLz4KICAgIDxyZWN0IHg9IjcuNSIgeT0iNyIgd2lkdGg9IjciIGhlaWdodD0iNyIgcng9IjIiIGZpbGw9IiM4NkI4RjUiIC8+CiAgICA8cmVjdCB4PSI3LjUiIHk9IjIyIiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMiIgZmlsbD0iIzUyNjlFMSIgLz4KICAgIDxyZWN0IHg9IjIxLjUiIHk9IjciIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIyIiBmaWxsPSJ1cmwoI3dvcmt0cmVlLWxlYWYpIiAvPgogIDwvZz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id29ya3RyZWUtYnJhbmNoZXMiIHgxPSIxMSIgeTE9IjEyIiB4Mj0iMTgiIHkyPSIyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjODZCOEY1IiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1MjY5RTEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ3b3JrdHJlZS1sZWFmIiB4MT0iMjIiIHkxPSI3IiB4Mj0iMjgiIHkyPSIxNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNTFDRkRCIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxMDg3OTIiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/tool-worktree/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/tool-worktree",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "blue",
+      "icon": "code",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "name": "语音输入",
+      "description": "在本机使用 SenseVoice 转写录音，首次使用需安装依赖。",
+      "author": "DeepSeek",
+      "category": "productivity",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjMuNzMyNCA4Ljc3MTQ4VjI3LjIyOTVMMjEuMjMyNCAyNy4yMjg1VjguNzcwNTFMMjMuNzMyNCA4Ljc3MTQ4Wk0xNC42Nzk3IDEwLjc3MTVMMTQuNjc4NyAyNS4yMjk1TDEyLjE3ODcgMjUuMjI4NUwxMi4xNzk3IDEwLjc3MDVMMTQuNjc5NyAxMC43NzE1Wk0xOS4zOTI2IDIyLjQxMzFIMTYuODkyNlYxMy41ODU5SDE5LjM5MjZWMjIuNDEzMVpNMTAuMDYyNSAyMC43MDhINy41NjI1VjE1LjI5MUgxMC4wNjI1VjIwLjcwOFpNMjguNDM3NSAyMC43MDhIMjUuOTM3NVYxNS4yOTFIMjguNDM3NVYyMC43MDhaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMzM3MV84NTIwMykiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMzM3MV84NTIwMyIgeDE9IjguMjQ2MDIiIHkxPSIxNi40MDgzIiB4Mj0iMzIuNTYxMSIgeTI9IjIyLjk2OTkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzY3QzdGRSIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0Y3N0Q4IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+      "logoKind": "manifest",
+      "logoSource": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/experimental/voice-input-bundle/icon.svg",
+      "origin": "official",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/experimental/voice-input-bundle",
+      "tags": [
+        "官方实验插件"
+      ],
+      "color": "amber",
+      "icon": "zap",
+      "featured": false,
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-subagent-claude-code",
+      "name": "Claude Code 子智能体",
+      "description": "使用 Claude Code 原生认证和设置委派单个任务。",
+      "author": "DeepSeek",
+      "origin": "official",
+      "category": "coding",
+      "color": "blue",
+      "icon": "code",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSIxNC45ODkzIiB5PSIxNS4xODc3IiB3aWR0aD0iMTIuMjM2NSIgaGVpZ2h0PSIxMi4yMzY1IiByeD0iMiIgZmlsbD0idXJsKCNkc2hfcGx1Z2luX2FydF9SMGEpIiBmaWxsLW9wYWNpdHk9IjAuOCI+PC9yZWN0PjxyZWN0IHg9IjguODcxMDkiIHk9IjkuMDY5NyIgd2lkdGg9IjEyLjIzNjUiIGhlaWdodD0iMTIuMjM2NSIgcng9IjIiIGZpbGw9InVybCgjZHNoX3BsdWdpbl9hcnRfUjBiKSIgZmlsbC1vcGFjaXR5PSIwLjgiPjwvcmVjdD48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImRzaF9wbHVnaW5fYXJ0X1IwYSIgeDE9IjIxLjEwNzUiIHkxPSIxNS4xODc3IiB4Mj0iMjEuMTA3NSIgeTI9IjI3LjQyNDMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNDVFN0E0Ij48L3N0b3A+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDU5MDlEIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImRzaF9wbHVnaW5fYXJ0X1IwYiIgeDE9IjE0Ljk4OTQiIHkxPSI5LjA2OTciIHgyPSIxNC45ODk0IiB5Mj0iMjEuMzA2MyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM2OUI5RkYiPjwvc3RvcD48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMjRERTIiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4K",
+      "logoKind": "manifest",
+      "tags": [
+        "官方扩展"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "verified": true
+    },
+    {
+      "id": "@deepseek-ai/dsh-subagent-codex",
+      "name": "Codex 子智能体",
+      "description": "使用 Codex 原生认证和设置委派单个任务。",
+      "author": "DeepSeek",
+      "origin": "official",
+      "category": "coding",
+      "color": "blue",
+      "icon": "code",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSIxNC45ODkzIiB5PSIxNS4xODc3IiB3aWR0aD0iMTIuMjM2NSIgaGVpZ2h0PSIxMi4yMzY1IiByeD0iMiIgZmlsbD0idXJsKCNkc2hfcGx1Z2luX2FydF9SMGEpIiBmaWxsLW9wYWNpdHk9IjAuOCI+PC9yZWN0PjxyZWN0IHg9IjguODcxMDkiIHk9IjkuMDY5NyIgd2lkdGg9IjEyLjIzNjUiIGhlaWdodD0iMTIuMjM2NSIgcng9IjIiIGZpbGw9InVybCgjZHNoX3BsdWdpbl9hcnRfUjBiKSIgZmlsbC1vcGFjaXR5PSIwLjgiPjwvcmVjdD48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImRzaF9wbHVnaW5fYXJ0X1IwYSIgeDE9IjIxLjEwNzUiIHkxPSIxNS4xODc3IiB4Mj0iMjEuMTA3NSIgeTI9IjI3LjQyNDMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNDVFN0E0Ij48L3N0b3A+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDU5MDlEIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImRzaF9wbHVnaW5fYXJ0X1IwYiIgeDE9IjE0Ljk4OTQiIHkxPSI5LjA2OTciIHgyPSIxNC45ODk0IiB5Mj0iMjEuMzA2MyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM2OUI5RkYiPjwvc3RvcD48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMjRERTIiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4K",
+      "logoKind": "manifest",
+      "tags": [
+        "官方扩展"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+/* Warm paper, sepia ink and quiet bookish typography. Original plugin artwork keeps its colors. */
+.dsh-store.dsh-store{--s-bg:#f4edd7;--s-panel:#fffbef;--s-ink:#433b2d;--s-text:#6f634e;--s-muted:#887b62;--s-line:#e4d9be;--s-blue:#8b632c;--s-blue-soft:#eee2bc;--s-hover:#f2e8ce;--s-hero:#f2e5b9;--s-mint:#ede8cf;--s-input:#f6efd9;--s-shadow:0 6px 22px #71562d0a;background:var(--s-bg);color:var(--s-ink)}
+.dsh-store.dsh-store.dark{--s-bg:#252219;--s-panel:#302b20;--s-ink:#efe3c6;--s-text:#cec09e;--s-muted:#ad9d7d;--s-line:#4c4431;--s-blue:#dfbd74;--s-blue-soft:#51432a;--s-hover:#3b3324;--s-hero:#45391f;--s-mint:#363522;--s-input:#28251c;--s-shadow:0 6px 22px #0002}
+.dsh-store .store-main{background-color:var(--s-bg);background-image:radial-gradient(#8b6e3520 .45px,transparent .6px);background-size:4px 4px}
+.dsh-store .store-sidebar{background:var(--s-panel);border-color:var(--s-line)}
+.dsh-store .store-header{background:var(--s-panel);border-color:var(--s-line)}
+.dsh-store .store-content{padding-top:31px}
+#root .dsh-store.dsh-store h1,#root .dsh-store.dsh-store h2,#root .dsh-store.dsh-store h3,#root .dsh-store.dsh-store .store-brand>span,#root .dsh-store.dsh-store .store-hero h2 em{font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",SimSun,Georgia,serif!important}
+#root .dsh-store.dsh-store .store-brand>span>span{font-family:Georgia,"Times New Roman",serif!important;letter-spacing:2px}
+.dsh-store .store-page-heading h1{font-weight:500;letter-spacing:1px}
+.dsh-store .store-heading-dot{color:var(--s-blue)}
+.dsh-store .store-eyebrow{letter-spacing:2px;color:var(--s-muted)}
+.dsh-store .store-brand{font-weight:500;letter-spacing:-.5px}
+.dsh-store .store-brand-mark{transform:rotate(-3deg)}
+.dsh-store .store-brand-mark i{background:#9c753b;border-radius:3px}
+.dsh-store .store-brand-mark i:nth-child(2){background:#dbbf7e;border-radius:3px 7px 3px 3px}
+.dsh-store .store-brand-mark i:nth-child(3){background:#c9a45b}
+.dsh-store .store-brand-mark i:nth-child(4){background:#806034}
+.dsh-store .store-nav-item{border-radius:7px;color:var(--s-text)}
+.dsh-store .store-nav-item.active,.dsh-store .store-nav-item.active:hover{background:var(--s-blue-soft);color:var(--s-blue)}
+.dsh-store .store-nav-label{letter-spacing:1.5px}
+.dsh-store .store-creator-card{background:var(--s-bg);border:1px solid var(--s-line);border-radius:5px;margin-bottom:13px}
+.dsh-store .store-creator-card:after{color:var(--s-blue)}
+.dsh-store .store-profile{border-top:0;padding-top:12px;gap:6px}
+.dsh-store .store-profile>div{min-width:0}
+.dsh-store .store-profile>div strong,.dsh-store .store-profile>div>span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dsh-store .store-profile-links{display:inline-flex;align-items:center;gap:2px;flex-shrink:0}
+.dsh-store .store-profile-links .store-icon-button{width:28px;height:32px;padding:4px}
+.dsh-store .store-mobile-socials{display:flex;justify-content:center;margin-top:16px}
+.dsh-store .store-mobile-socials .store-icon-button{width:40px;height:40px}
+.dsh-store .store-button{border-color:var(--s-line);border-radius:6px;color:var(--s-text)}
+.dsh-store .store-button.primary{background:#8a652f;border-color:#8a652f;color:#fff8e6;box-shadow:0 3px 7px #6b4a1a16}
+.dsh-store .store-button.primary:hover{background:#755427;border-color:#755427;box-shadow:0 4px 10px #6b4a1a21}
+.dsh-store.dark .store-button.primary{background:#d4b270;border-color:#d4b270;color:#302718}
+.dsh-store .store-button:hover{border-color:var(--s-blue);background:var(--s-blue-soft);color:var(--s-blue)}
+.dsh-store .store-button.primary:hover{color:#fff8e6}
+.dsh-store.dark .store-button.primary:hover{background:#e0bd79;color:#302718}
+.dsh-store .store-button.small,.dsh-store .store-card .store-button.small{background:var(--s-blue-soft);color:var(--s-blue);border-color:transparent}
+.dsh-store .store-button.installed{background:var(--s-hover);color:var(--s-text)}
+.dsh-store .store-button.destructive{background:#a75c45;border-color:#a75c45;color:#fff8e6}
+.dsh-store .store-search{background:var(--s-input);border-color:var(--s-line);border-radius:6px}
+.dsh-store .store-search kbd{background:var(--s-panel);color:var(--s-muted);border-color:var(--s-line)}
+.dsh-store .store-icon-button.is-favorite{background:var(--s-blue-soft);color:var(--s-blue)}
+.dsh-store .store-preview-note{background:var(--s-panel);border-radius:5px}
+.dsh-store .store-hero{background:linear-gradient(105deg,var(--s-hero),var(--s-panel));border:1px solid var(--s-line);border-radius:6px 15px 15px 6px;box-shadow:inset 5px 0 #b8975730,0 4px 12px #75592d04}
+.dsh-store .store-hero-label{background:var(--s-panel);border:1px solid var(--s-line);border-radius:4px;color:var(--s-blue);letter-spacing:1px}
+.dsh-store .store-hero h2{font-weight:500;line-height:1.65;letter-spacing:1px}
+.dsh-store .store-hero h2 em{font-weight:500;color:var(--s-blue)}
+.dsh-store .store-hero-art{background:radial-gradient(circle,#d9b66a24,transparent 68%)}
+.dsh-store .store-art-core{height:125px;width:97px;background:var(--s-panel);border:1px solid #b19055;border-left:6px solid #9e793c;border-radius:3px 10px 10px 3px;box-shadow:3px 5px 0 #cbb783,7px 14px 24px #98743c25;transform:rotate(-9deg)}
+.dsh-store .store-art-core .store-brand-mark{grid-template-columns:21px 21px;grid-template-rows:21px 21px;gap:4px}
+.dsh-store .store-art-core .store-brand-mark i{border-radius:3px}
+.dsh-store .store-art-tile{background:var(--s-panel);border:1px solid var(--s-line);border-radius:7px;box-shadow:0 5px 12px #8a6a3715}
+.dsh-store .store-orbit{border-color:#b59a5a38}
+.dsh-store .store-orbit-dot{background:#b79d63;border-color:var(--s-hero)}
+.dsh-store .store-art-spark{color:#b79a59}
+.dsh-store .store-editorial{background:linear-gradient(135deg,var(--s-mint),var(--s-panel));border-color:var(--s-line);border-radius:6px 13px 13px 6px}
+.dsh-store .store-editorial-top,.dsh-store .store-editorial button{color:var(--s-text)}
+.dsh-store .store-editorial h3{font-weight:500;letter-spacing:.5px}
+.dsh-store .store-editorial-art>div{border-color:#a9976659;background:#b7a66b0b}
+.dsh-store .store-editorial-art>svg{color:#9b8957}
+.dsh-store .store-editorial-label{color:var(--s-muted)}
+.dsh-store .store-discovery-strip svg,.dsh-store .store-section-heading h2>svg{color:#a28b58}
+.dsh-store .store-daily-shortcut{background:var(--s-panel);border-radius:6px;border-color:var(--s-line)}
+.dsh-store .store-daily-shortcut:hover,.dsh-store .store-card:hover{border-color:#bc9a59;box-shadow:0 7px 18px #84612e10}
+.dsh-store .store-section-heading h2{font-weight:500;letter-spacing:.6px}
+.dsh-store .store-card{background:var(--s-panel);border-color:var(--s-line);border-radius:7px;box-shadow:0 2px 5px #8b6f3304}
+.dsh-store .store-card .store-title-button h3{font-weight:600;letter-spacing:.2px}
+.dsh-store .store-title-button>svg{color:#aa8e52}
+.dsh-store .store-tags>span{background:var(--s-hover);color:var(--s-text);border-radius:3px}
+.dsh-store .store-tags>span.official-tag{background:var(--s-blue-soft);color:var(--s-blue)}
+.dsh-store .store-filters,.dsh-store .store-view-switch{background:var(--s-panel);border-color:var(--s-line);border-radius:6px}
+.dsh-store .store-filter-tabs button.active,.dsh-store .store-view-switch button.active{background:var(--s-blue-soft);color:var(--s-blue)}
+.dsh-store .store-count{background:var(--s-panel);border-color:var(--s-line)}
+.dsh-store .blue,.dsh-store .amber,.dsh-store .purple,.dsh-store .pink,.dsh-store .green,.dsh-store .cyan,.dsh-store .violet,.dsh-store .coral,.dsh-store .teal{--tile-tint:#f5e9c7;--tile-accent:#b39353;background:#f1e4c1;color:#9d7e40}
+.dsh-store .green,.dsh-store .teal{--tile-tint:#edebd4;--tile-accent:#99945e;background:#eeecd5;color:#8a8957}
+.dsh-store .coral,.dsh-store .pink{--tile-tint:#f3e7d1;--tile-accent:#b39770;background:#f3e7d1;color:#a18863}
+.dsh-store.dark .blue,.dsh-store.dark .amber,.dsh-store.dark .purple,.dsh-store.dark .pink,.dsh-store.dark .green,.dsh-store.dark .cyan,.dsh-store.dark .violet,.dsh-store.dark .coral,.dsh-store.dark .teal{--tile-tint:#3e3521;--tile-accent:#b99e66;background:#403723;color:#d2b87b}
+.dsh-store .store-plugin-mark.has-logo{background:var(--s-panel);border-color:var(--s-line)}
+.dsh-store.dsh-store .store-category-card{background:linear-gradient(145deg,var(--tile-tint),var(--s-panel) 85%);color:var(--s-ink);border-radius:7px}
+.dsh-store .store-category-card.selected{border-color:var(--tile-accent);box-shadow:0 0 0 2px var(--tile-tint)}
+.dsh-store .store-category-copy h3{font-weight:500;letter-spacing:.5px}
+.dsh-store.dsh-store .store-daily-card{background:var(--s-panel);color:var(--s-ink);border-radius:7px}
+.dsh-store .store-daily-intro{background:linear-gradient(110deg,var(--s-hero),var(--s-panel));border-color:var(--s-line);border-radius:6px 14px 14px 6px}
+.dsh-store .store-daily-intro h2{font-weight:500}
+.dsh-store .store-calendar{background:var(--s-panel);border-color:var(--s-line);box-shadow:0 4px 10px #8a6b2d0c;border-radius:4px 8px 8px 4px}
+.dsh-store .store-calendar>span:first-child{background:var(--s-blue-soft);border-color:var(--s-line);color:var(--s-blue)}
+.dsh-store .store-toggle.on{background:#b69750}
+.dsh-store .store-source-icon{border-radius:7px}
+.dsh-store .store-empty-icon{background:var(--s-blue-soft);color:var(--s-blue);border-radius:10px}
+.dsh-store .store-footer{border-color:var(--s-line)}
+.dsh-store .store-dialog{background:var(--s-panel);border-color:var(--s-line);border-radius:9px}
+.dsh-store .store-dialog::backdrop{background:#352d1b69}
+.dsh-store .store-mobile-nav{background:var(--s-panel);border-color:var(--s-line);box-shadow:0 -4px 18px #7b5d270b;border-radius:10px 10px 0 0}
+.dsh-store .store-mobile-nav>button.active{color:var(--s-blue)}
+.dsh-store .store-mobile-nav>button.active>span{background:var(--s-blue-soft)}
+@media(max-width:740px){.dsh-store .store-hero h2{font-size:27px;letter-spacing:.4px}.dsh-store .store-content{padding-top:24px}}
+@container plugin-store (max-width:740px){.dsh-store .store-hero h2{font-size:27px;letter-spacing:.4px}.dsh-store .store-content{padding-top:24px}}
+
+/* Installation registry preferences, shared by desktop and narrow embedded panels. */
+.dsh-store .store-registry-section{margin-bottom:34px}
+.dsh-store .store-registry-panel{padding:22px 24px;background:var(--s-panel);border:1px solid var(--s-line);border-radius:7px}
+.dsh-store .store-registry-panel fieldset{border:0;padding:0;margin:0;min-width:0;display:grid;gap:10px}
+.dsh-store .store-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.dsh-store .store-registry-option{padding:14px 16px;border:1px solid var(--s-line);border-radius:6px;background:var(--s-bg)}
+.dsh-store .store-registry-option.selected{background:var(--s-blue-soft);border-color:var(--s-blue)}
+.dsh-store .store-registry-choice{display:flex;align-items:center;gap:10px;flex-wrap:wrap;cursor:pointer;font-size:13px;line-height:1.6;color:var(--s-ink)}
+.dsh-store .store-registry-choice input{width:18px;height:18px;margin:0;accent-color:var(--s-blue);flex-shrink:0}
+.dsh-store .store-registry-choice code{margin-left:auto;color:var(--s-muted);font-size:11px;overflow-wrap:anywhere}
+.dsh-store .store-registry-custom{margin:13px 0 0 28px;min-width:0}
+.dsh-store .store-registry-custom input{width:100%;min-width:0;min-height:44px;background:var(--s-input);border:1px solid var(--s-line);border-radius:6px;padding:10px 12px;font-size:13px}
+.dsh-store .store-registry-custom input:disabled{opacity:.5;cursor:not-allowed}
+.dsh-store .store-registry-custom p,.dsh-store .store-registry-footnote{font-size:11px;line-height:1.9;color:var(--s-muted);margin-top:10px;overflow-wrap:anywhere}
+.dsh-store .store-registry-save{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:20px;padding-top:18px;border-top:1px solid var(--s-line);flex-wrap:wrap}
+.dsh-store .store-registry-save>span{font-size:11px;color:var(--s-text);min-width:0}
+.dsh-store .store-registry-save code{display:block;font-size:11px;margin-top:3px;overflow-wrap:anywhere;color:var(--s-blue)}
+.dsh-store .store-registry-error{color:#b24e35;font-size:12px;line-height:1.8;margin-top:12px}
+.dsh-store.dark .store-registry-error{color:#e99d83}
+@media(max-width:740px){.dsh-store .store-registry-panel{padding:16px 12px}.dsh-store .store-registry-option{padding:13px 10px}.dsh-store .store-registry-choice code{flex-basis:100%;margin-left:28px}.dsh-store .store-registry-custom input{font-size:16px}.dsh-store .store-registry-save{align-items:stretch}.dsh-store .store-registry-save button{width:100%}}
+@container plugin-store (max-width:740px){.dsh-store .store-registry-panel{padding:16px 12px}.dsh-store .store-registry-option{padding:13px 10px}.dsh-store .store-registry-choice code{flex-basis:100%;margin-left:28px}.dsh-store .store-registry-custom input{font-size:16px}.dsh-store .store-registry-save{align-items:stretch}.dsh-store .store-registry-save button{width:100%}}
+
+/* A verse in the margin, refreshed with the shared Shanghai calendar date. */
+.dsh-store .store-daily-poem{display:grid;grid-template-columns:minmax(0,1fr);row-gap:5px;max-width:620px;margin:18px 0 0;padding:13px 15px;border-left:2px solid var(--s-blue);border-radius:0 5px 5px 0;background:var(--s-panel)}
+#root .dsh-store.dsh-store .store-daily-poem blockquote{font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",SimSun,Georgia,serif!important}
+.dsh-store .store-daily-poem blockquote{margin:0;padding:0;font-size:15px;line-height:1.9;letter-spacing:.65px;color:var(--s-ink);overflow-wrap:anywhere}
+.dsh-store .store-daily-poem figcaption{font-size:11px;line-height:1.8;color:var(--s-muted);overflow-wrap:anywhere}
+@media(max-width:740px){.dsh-store .store-daily-poem{margin-top:13px;padding:11px 10px}.dsh-store .store-daily-poem blockquote{font-size:14px;letter-spacing:.3px}.dsh-store .store-daily-poem figcaption{font-size:10px}}
+@container plugin-store (max-width:740px){.dsh-store .store-daily-poem{margin-top:13px;padding:11px 10px}.dsh-store .store-daily-poem blockquote{font-size:14px;letter-spacing:.3px}.dsh-store .store-daily-poem figcaption{font-size:10px}}
+
+.dsh-store .store-catalog-controls{flex-wrap:wrap}
+.dsh-store .store-hide-official{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--s-text);cursor:pointer;white-space:nowrap;min-height:32px}
+.dsh-store .store-hide-official input{height:16px;width:16px;margin:0;accent-color:var(--s-blue);cursor:pointer}
+@media(max-width:740px){.dsh-store .store-hide-official{font-size:11px;min-height:40px}}
+@container plugin-store (max-width:740px){.dsh-store .store-hide-official{font-size:11px;min-height:40px}}

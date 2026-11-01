@@ -1,0 +1,13 @@
+node_modules/
+preview-dist/
+test-results/
+*.tgz
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+*.tmp
+.env
+.env.*
+.npmrc
+.cache/

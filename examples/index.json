@@ -1,0 +1,7 @@
+{
+  "format": 1,
+  "title": { "zh": "我的插件目录" },
+  "description": { "zh": "示例空目录：请按官方格式添加你实际维护的插件与版本。" },
+  "metadata": { "categories": {}, "labels": {}, "sortKeys": {} },
+  "plugins": []
+}

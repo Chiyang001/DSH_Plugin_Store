@@ -1,0 +1,5 @@
+{
+  "name": "dsh-store-native-test-fixture", "version": "1.0.0", "type": "module", "main": "index.js",
+  "description": "Isolated integration test fixture. Does not change user data.",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

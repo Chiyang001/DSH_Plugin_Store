@@ -1,0 +1,8 @@
+import { bilibiliPath } from './assets/bilibili';
+import { List, BarChart3, ArrowDownToLine, ArrowRight, ArrowUpRight, Bookmark, Boxes, Brain, Check, ChevronDown, Code2, Compass, ExternalLink, FolderHeart, Github, Grid2X2, Heart, Info, LayoutDashboard, Layers3, LoaderCircle, Moon, MoreHorizontal, Package, Palette, Plug, Plus, RefreshCw, Search, Settings2, ShieldCheck, SlidersHorizontal, Sparkles, Star, Sun, Terminal, Trash2, X, Zap } from 'lucide-react';
+const icons = { list: List, chart: BarChart3, download: ArrowDownToLine, arrow: ArrowRight, arrowUp: ArrowUpRight, bookmark: Bookmark, boxes: Boxes, brain: Brain, check: Check, down: ChevronDown, code: Code2, compass: Compass, external: ExternalLink, folder: FolderHeart, github: Github, grid: Grid2X2, heart: Heart, info: Info, layout: LayoutDashboard, layers: Layers3, loading: LoaderCircle, moon: Moon, more: MoreHorizontal, package: Package, palette: Palette, plug: Plug, plus: Plus, refresh: RefreshCw, search: Search, settings: Settings2, shield: ShieldCheck, sliders: SlidersHorizontal, sparkles: Sparkles, star: Star, sun: Sun, terminal: Terminal, trash: Trash2, x: X, zap: Zap };
+export function Icon({ name, size = 20, className = '' }: { name: string; size?: number; className?: string }) {
+  if (name === 'bilibili') return <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true"><path d={bilibiliPath}/></svg>;
+  const C = icons[name as keyof typeof icons] ?? Package;
+  return <C size={size} strokeWidth={1.7} className={`${name === 'loading' ? 'store-spin' : ''} ${className}`} aria-hidden="true" />;
+}

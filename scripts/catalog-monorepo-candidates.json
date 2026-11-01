@@ -1,0 +1,80 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/k0ndrateff/dsh-plugins/main/docs/market.json",
+      "checked": 10,
+      "selectedRepositories": 1,
+      "scope": "complete small format-1 index; package directories, npm version pins and engines declarations read without executing code"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dshworks/awesome-dsh-plugins/main/data/plugins.json",
+      "schema": "https://raw.githubusercontent.com/dshworks/awesome-dsh-plugins/main/data/schema.json",
+      "registryEntries": 21928,
+      "checked": 3,
+      "selectedRepositories": 3,
+      "scope": "three previously observed verified plugin entries with explicit non-root package paths; remaining large registry not traversed for this candidate file"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ZeroPointRepo/awesome-dsh-plugins/main/plugins.json",
+      "checked": 223,
+      "selectedRepositories": 1,
+      "scope": "complete directory metadata read; selected one explicit non-root package install path"
+    }
+  ],
+  "repositories": [
+    {
+      "full_name": "k0ndrateff/dsh-plugins",
+      "name": "dsh-plugins",
+      "default_branch": "HEAD",
+      "packagePaths": [
+        "packages/atlassian",
+        "packages/sentry",
+        "packages/gitlab",
+        "packages/figma",
+        "packages/digest",
+        "packages/correlation",
+        "packages/integrations",
+        "packages/devkit",
+        "packages/browser",
+        "packages/workflow"
+      ],
+      "discoverySource": "https://raw.githubusercontent.com/k0ndrateff/dsh-plugins/main/docs/market.json"
+    },
+    {
+      "full_name": "iqingyoung/429-throttle-mcp",
+      "name": "429-throttle-mcp",
+      "default_branch": "HEAD",
+      "packagePaths": [
+        "packages/dsh-throttle"
+      ],
+      "discoverySource": "https://raw.githubusercontent.com/dshworks/awesome-dsh-plugins/main/data/plugins.json"
+    },
+    {
+      "full_name": "shynloc/acks-dsh-plugins",
+      "name": "acks-dsh-plugins",
+      "default_branch": "HEAD",
+      "packagePaths": [
+        "ai-agent/dsh-skill-panel"
+      ],
+      "discoverySource": "https://raw.githubusercontent.com/dshworks/awesome-dsh-plugins/main/data/plugins.json"
+    },
+    {
+      "full_name": "celia998/a",
+      "name": "a",
+      "default_branch": "HEAD",
+      "packagePaths": [
+        "packages/dsh-dopamine-skin"
+      ],
+      "discoverySource": "https://raw.githubusercontent.com/dshworks/awesome-dsh-plugins/main/data/plugins.json"
+    },
+    {
+      "full_name": "dingkaihu63/dsh-robotic-harness",
+      "name": "dsh-robotic-harness",
+      "default_branch": "HEAD",
+      "packagePaths": [
+        "packages/dsh-bundle"
+      ],
+      "discoverySource": "https://raw.githubusercontent.com/ZeroPointRepo/awesome-dsh-plugins/main/plugins.json"
+    }
+  ]
+}
